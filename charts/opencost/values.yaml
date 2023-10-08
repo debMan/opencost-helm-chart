@@ -41,14 +41,6 @@ service:
   labels: {}
   # --  Kubernetes Service type
   type: ClusterIP
-  # -- Customize default ports, Useful for sidecar pods such as oauth-proxy
-  ports:
-    http:
-      port: 9003
-      targetPort: 9003
-    ui:
-      port: 9090
-      targetPort: 9090
   # -- extra ports.  Useful for sidecar pods such as oauth-proxy
   extraPorts: []
     # - name: oauth-proxy
