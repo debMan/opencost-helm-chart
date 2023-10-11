@@ -9,9 +9,8 @@ keywords:
   - kubecost
   - opencost
   - monitoring
-version: 1.20.3
+version: 1.20.2
 maintainers:
   - name: mattray
     url: https://mattray.dev
   - name: toscott
-  - name: debman
